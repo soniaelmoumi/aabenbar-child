@@ -1,0 +1,74 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: A plain-vanilla &amp; lightweight theme for Elementor page builder
+Tags: flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 2.5.1
+Updated: 2022-05-18 12:23:48
+
+*/
+.custom-logo {
+	height: 40px;
+	width: 40px;
+}
+
+#site-header{
+	display: none;
+}
+
+#site-footer{
+	display: none;
+}
+
+h4 {
+	text-align: left;
+}
+
+a {
+	color:#1F876D;
+}
+
+h6 span a {
+	color: 1F876D;
+}
+
+.footer_center a {
+	text-align: center;
+}
+
+/* ELEMENTOR */
+.elementor-column-gap-default > .elementor-column > .elementor-element-populated {
+  padding: 0px;
+}
+
+.menu-left p {
+	text-align: left;
+}
+
+.menu-left h2 {
+	text-align: center;
+}
+
+footer p {
+    text-align: left;
+}
+
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 767px) {
+  footer p {
+    text-align: center;
+}
+	
+	footer h5 {
+    text-align: center;
+}
+	
+	.topbox{
+		opacity: 0.5;
+	}
+	
+}
